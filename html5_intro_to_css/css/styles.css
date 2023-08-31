@@ -2,7 +2,7 @@ html {
     background-color:#f7f7bc;
 }
 body {
-    background-color: aliceblue;
+    background-color:white;
     width: 750px;
     margin: 20px auto;
     border-radius: 20px;
@@ -12,7 +12,6 @@ header{
     padding: 20px;
     text-align: center;
 }
-
 header img {
     display: block;
     margin: 20px auto;
@@ -31,14 +30,13 @@ nav a {
 
 }
 nav a:hover {
-    color:lightgreen;
+    color:brown;
     text-decoration: none;
 }
 
 main {
     padding: 20px;
 }
-
 main img {
     display: block;
     margin: 20px auto;
@@ -57,7 +55,7 @@ a {
     text-decoration: none;
 }
 a:hover {
-    color:rgb(82, 161, 113);
+    color:brown;
     text-decoration: none;
 }
 
