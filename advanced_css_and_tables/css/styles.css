@@ -128,7 +128,16 @@ table {
     border: 4px ridge #737373;
 }
 
-td, tr {
+td {
+    border: 6px solid #404040;
+    padding: 10px;
+    margin: auto;
+    vertical-align:middle;
+    width:250px;
+    height:250px;
+}
+
+tr {
     border: 6px solid #404040;
     padding: 10px;
     margin: auto;
