@@ -100,8 +100,16 @@ table {
     border: #404040;
 }
 
+table img {
+    width: 100%;
+}
+
 tr, td {
     border: 4px ridge #404040;
+}
+
+td {
+    width: 50%;
 }
 
 @media (min-width: 786px) {
@@ -143,6 +151,10 @@ tr, td {
         width: 50%;
     }
 
+    .single_page {
+        width: 100%;
+    }
+
 }
 
 @media (min-width: 1024px) {
@@ -162,11 +174,12 @@ tr, td {
         border-radius: 10px;
     }
 
-    .single_page {
-        width: 100%;
-    }
-
     section img {
         width: 60%;
     }
+    
+    table img {
+        width: 100%;
+    }
+
 }
