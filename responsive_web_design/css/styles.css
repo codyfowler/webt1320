@@ -20,6 +20,7 @@ h1, h2, h3 {
 nav {
     background-color: #F2F2F2;
     text-align: center;
+    white-space: nowrap;
 }
 
 nav ul {
@@ -76,6 +77,8 @@ footer {
     text-decoration: #730E0E;
     margin-top: 10px;
     margin-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
     padding: 10px 20px;
     text-align: center;
     border: 2px ridge #737373;
@@ -85,20 +88,42 @@ footer {
 .button:hover {
     background-color: #404040;
     border: #0D0D0D;
-    white-space: nowrap;
 }
 
 @media (min-width: 786px) {
     nav li {
         display: inline-block;
         border: 0;
-        tex
+        margin: 5px 5px;
     }
 
     nav li a {
-        width: 150px
-        margin: 0 5px;
+        width: 150px;
+        margin: 5px 5px;
         border-radius: 10px;
-        border: 4px ridge #8688A6;
+        border: 4px ridge #404040;
     }
+
+    main{
+        display: flex;
+    }
+
+    section, aside {
+        padding: 10px;
+        margin: 10px;
+        border: 2px ridge #141C26;
+    }
+
+    section {
+        width: 70%;
+    }
+
+    aside {
+        width: 30%;
+    }
+
+    .col img {
+        width: 50%;
+    }
+
 }
