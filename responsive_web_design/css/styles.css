@@ -96,6 +96,14 @@ footer {
     border: #0D0D0D;
 }
 
+table {
+    border: #404040;
+}
+
+tr, td {
+    border: 4px ridge #404040;
+}
+
 @media (min-width: 786px) {
     nav li {
         display: inline-block;
@@ -137,19 +145,28 @@ footer {
 
 }
 
-@media (min-width 1024px) {
+@media (min-width: 900px) {
     #container {
         width: 65%;
         margin: 20px auto;
     }
 
     #lower_area {
-        display: inline-flex;
-        flex-direction: row;
+        display: flex;
     }
 
     .col {
         border: 2px ridge maroon;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 10px;
     }
 
+    .single_page {
+        width: 100%;
+    }
+
+    section img {
+        width: 60%;
+    }
 }
