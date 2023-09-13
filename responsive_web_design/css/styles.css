@@ -20,7 +20,10 @@ h1, h2, h3 {
 nav {
     background-color: #F2F2F2;
     text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
     white-space: nowrap;
+    margin: auto;
 }
 
 nav ul {
@@ -105,6 +108,9 @@ footer {
         margin: 5px 5px;
         border-radius: 10px;
         border: 4px ridge #404040;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
     }
 
     main{
