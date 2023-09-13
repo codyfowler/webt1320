@@ -18,7 +18,8 @@ h1, h2, h3 {
 }
 
 nav {
-    background-color: #141C26;
+    background-color: #F2F2F2;
+    text-align: center;
 }
 
 nav ul {
@@ -84,5 +85,20 @@ footer {
 .button:hover {
     background-color: #404040;
     border: #0D0D0D;
+    white-space: nowrap;
 }
 
+@media (min-width: 786px) {
+    nav li {
+        display: inline-block;
+        border: 0;
+        tex
+    }
+
+    nav li a {
+        width: 150px
+        margin: 0 5px;
+        border-radius: 10px;
+        border: 4px ridge #8688A6;
+    }
+}
