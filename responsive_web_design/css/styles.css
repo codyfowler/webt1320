@@ -136,3 +136,20 @@ footer {
     }
 
 }
+
+@media (min-width 1024px) {
+    #container {
+        width: 65%;
+        margin: 20px auto;
+    }
+
+    #lower_area {
+        display: inline-flex;
+        flex-direction: row;
+    }
+
+    .col {
+        border: 2px ridge maroon;
+    }
+
+}
