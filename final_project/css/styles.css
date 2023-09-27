@@ -1,4 +1,4 @@
-/* color pallet
+/* color pallet from banner1.webp
 #4ABF2A (green)
 #ECF235 (florecent-yellow)
 #F1F2CE (cream-beige)
@@ -22,6 +22,30 @@ audio {
 nav {
     background-color: #8C5535;
     padding: 2px 0;
+    text-align: center;
+    height: 30px;
+    width: 100%;
+}
+
+nav ul {
+    padding: 0%;
+    list-style-type: none;
+}
+
+nav li {
+    display: inline-block;
+    align-items: center;
+}
+
+nav li a {
+    display: block;
+    background-color: #ECF235;
+    border: solid #F2CC0C;
+    height: 20px;
+    line-height: 20px;
+    font-size: 0.8em;
+    text-decoration: none;
+    border-radius: 10px;
     text-align: center;
 }
 
@@ -69,19 +93,13 @@ h1 {
     font-size: 24px;
     margin-bottom: 10px;
 }
-
 h2 {
     font-size: 20px;
     margin-bottom: 10px;
 }
 
-p {
-    font-size: 16px;
-    line-height: 1.5;
-}
-
 a {
-    color: #0077cc;
+    color: #8C5535;
     text-decoration: none;
 }
 
