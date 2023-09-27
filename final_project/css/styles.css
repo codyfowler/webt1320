@@ -1,3 +1,5 @@
+/* color pallet 1 #4ABF2A (green) #ECF235 (florecent-yellow) #F1F2CE (cream-beige) #F2CC0C (gold-yellow) #8C5535 (milk-chocolate)*/
+
 /* Reset some default styles for consistency */
 body, h1, h2, h3, p, ul, li {
     margin: 0;
@@ -6,7 +8,7 @@ body, h1, h2, h3, p, ul, li {
 
 /* Apply background color to the entire page */
 body {
-    background-color: #f0f0f0;
+    background-color: #F1F2CE;
     font-family: Arial, sans-serif;
 }
 
