@@ -1,11 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
+    <head>
+        <meta charset="UTF-8">
+        <title>Your Webpage Title</title>
+        <style>
+            /* Reset some default styles for consistency */
+            body, h1, h2, h3, p, ul, li {
+                margin: 0;
+                padding: 0;
+            }
     
-</body>
-</html>
+            /* Apply background color to the entire page */
+            body {
+                background-color: #f0f0f0;
+                font-family: Arial, sans-serif;
+            }
+    
+            /* Create a container for the 3 columns */
+            .container {
+                width: 80%;
+                margin: 0 auto;
+                background-color: #fff;
+                border: 1px solid #ccc;
+                padding: 20px;
+                overflow: hidden; /* Clear floats */
+            }
+    
+            /* Define styles for each column */
+            .column {
+                width: 30%;
+                float: left;
+                margin-right: 5%;
+                padding: 10px;
+                border: 1px solid #ddd;
+                background-color: #ffffff;
+                box-sizing: border-box;
+            }
+    
+            /* Style headings, text, and links */
+            h1 {
+                font-size: 24px;
+                margin-bottom: 10px;
+            }
+    
+            h2 {
+                font-size: 20px;
+                margin-bottom: 10px;
+            }
+    
+            p {
+                font-size: 16px;
+                line-height: 1.5;
+            }
+    
+            a {
+                color: #0077cc;
+                text-decoration: none;
+            }
+    
+            a:hover {
+                text-decoration: underline;
+            }
+    
+            /* Style the list */
+            ul {
+                list-style: disc;
+                margin-left: 20px;
+                margin-bottom: 20px;
+            }
+    
+            li {
+                margin-bottom: 5px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="column">
+                <h1>Column 1</h1>
+                <p>This is some text in the first column.</p>
+                <ul>
+                    <li>List item 1</li>
+                    <li>List item 2</li>
+                    <li>List item 3</li>
+                </ul>
+            </div>
+            <div class="column">
+                <h2>Column 2</h2>
+                <p>This is some text in the second column.</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div class="column">
+                <h2>Column 3</h2>
+                <p>This is some text in the third column.</p>
+            </div>
+        </div>
+    </body>
+    </html>
