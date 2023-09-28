@@ -9,6 +9,12 @@ header {
     width: 100%;
     box-sizing: border-box;
 }
+
+header img {
+    width: 100%;
+    max-width: 900px;
+}
+
 video, audio {
     display: block;
     width: 30%;
@@ -49,7 +55,6 @@ nav li a {
     text-align: center;
 }
 
-/* Reset some default styles for consistency */
 body, h1, h2, h3, p, ul, li {
     margin: 0;
     padding: 0;
@@ -64,13 +69,11 @@ h1 {
     padding: 0;
 }
 
-/* Apply background color to the entire page */
 body {
     background-color: #F1F2CE;
     font-family: Arial, sans-serif;
 }
 
-/* Create a container for the 3 columns */
 .container {
     width: 80%;
     margin: 0 auto;
@@ -80,7 +83,6 @@ body {
     overflow: hidden;
 }
 
-/* Define styles for each column */
 .column {
     width: 30%;
     float: left;
@@ -91,7 +93,6 @@ body {
     box-sizing: border-box;
 }
 
-/* Style headings, text, and links */
 h1 {
     font-size: 24px;
     margin-bottom: 10px;
@@ -110,7 +111,6 @@ a:hover {
     text-decoration: underline;
 }
 
-/* Style the list */
 ul {
     list-style: disc;
     margin-left: 20px;
@@ -121,7 +121,6 @@ li {
     margin-bottom: 5px;
 }
 
-/* Style the price comparison section */
 .price-comparison {
     margin-top: 20px;
     padding: 20px;
@@ -129,12 +128,11 @@ li {
     border: 1px solid #ddd;
 }
 
-.price-comparison h3 {
+.price-comparison h1 {
     font-size: 20px;
     margin-bottom: 10px;
 }
 
-/* Style images */
 img {
     max-width: 100%;
     height: auto;
@@ -169,10 +167,6 @@ img {
 
     section {
         width: 70%;
-    }
-
-    aside {
-        width: 30%;
     }
 
     .col img {
