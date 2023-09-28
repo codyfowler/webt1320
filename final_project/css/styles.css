@@ -29,7 +29,7 @@ header img {
 
 video, audio {
     display: block;
-    width: 30%;
+    width: 60%;
     margin:auto;
 }
 
@@ -207,7 +207,7 @@ img {
         border: 3px #ccc;
     }
     video, audio {
-        width: 90%;
+        width: 30%;
     }
     .column {
         width: 30%;
