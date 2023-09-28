@@ -1,4 +1,4 @@
-/* color pallet from banner1.webp
+/* colors offered from banner1.webp
 #4ABF2A (green)
 #ECF235 (florecent-yellow)
 #F1F2CE (cream-beige)
@@ -119,6 +119,14 @@ a:hover {
     text-decoration: underline;
 }
 
+table {
+    width: auto;
+}
+
+table th {
+    width: 33%;
+}
+
 ul {
     list-style: disc;
     margin-left: 20px;
@@ -169,14 +177,6 @@ img {
     main{
         display: flex;
     }
-    section, aside {
-        padding: 10px;
-        margin: 10px;
-        border: 2px;
-    }
-    section {
-        width: 70%;
-    }
     .col img {
         width: 50%;
     }
@@ -186,7 +186,7 @@ img {
     #container {
         width: 65%;
         margin: 20px auto;
-        border: #ccc;
+        border: 3px #ccc;
     }
     video, audio {
         width: 90%;
@@ -196,8 +196,5 @@ img {
         padding: 10px;
         margin: 10px;
         border-radius: 10px;
-    }
-    section img {
-        width: 60%;
     }
 }
