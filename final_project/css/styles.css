@@ -152,7 +152,6 @@ img {
         border: 0;
         margin: 5px 5px;
     }
-
     nav li a {
         width: 150px;
         margin: 5px 5px;
@@ -162,35 +161,25 @@ img {
         text-overflow: ellipsis;
         white-space: nowrap;
     }
-
     video, audio {
         display: block;
         width: 50%;
         margin:auto;
     }
-
     main{
         display: flex;
     }
-
     section, aside {
         padding: 10px;
         margin: 10px;
         border: 2px;
     }
-
     section {
         width: 70%;
     }
-
     .col img {
         width: 50%;
     }
-
-    .single_page {
-        width: 100%;
-    }
-
 }
 
 @media (min-width: 1024px) {
@@ -199,22 +188,16 @@ img {
         margin: 20px auto;
         border: #ccc;
     }
-
     video, audio {
         width: 90%;
     }
-
     .col {
         border: 2px;
         padding: 10px;
         margin: 10px;
         border-radius: 10px;
     }
-
     section img {
         width: 60%;
     }
-    
-    table img {
-        width: 100%;
-    }
+}
