@@ -17,7 +17,7 @@ header img {
 
 video, audio {
     display: block;
-    width: 90%;
+    width: 30%;
     margin:auto;
 }
 audio {
@@ -62,15 +62,14 @@ body, h1, h2, h3, p, ul, li {
     margin: 0;
     padding: 0;
     text-align: center;
+    border-radius: 0 3px;
 }
-
-aside {
-    width: 0%;
 
 h1 {
     margin: 0 auto;
     padding: 0;
 }
+
 
 body {
     background-color: #F1F2CE;
@@ -84,6 +83,27 @@ body {
     border: 1px solid #ccc;
     padding: 20px;
     overflow: hidden;
+    flex: auto;
+}
+
+.column {
+    width: 30%;
+    float: left;
+    margin-right: 5%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    background-color: #ffffff;
+    box-sizing: border-box;
+}
+
+.column {
+    width: 30%;
+    float: left;
+    margin-right: 5%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    background-color: #ffffff;
+    box-sizing: border-box;
 }
 
 .column {
@@ -199,7 +219,7 @@ img {
     }
 
     video, audio {
-        width: 30%;
+        width: 90%;
     }
 
     .col {
