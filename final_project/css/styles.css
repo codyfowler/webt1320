@@ -5,9 +5,21 @@
 #F2CC0C (gold-yellow)
 #8C5535 (milk-chocolate)*/
 
+/*font-family: 'Roboto', sans-serif;
+font-family: 'Ubuntu', sans-serif;*/
+
+head {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
 header {
     width: 100%;
     box-sizing: border-box;
+    
 }
 
 header img {
