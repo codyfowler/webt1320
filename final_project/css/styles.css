@@ -17,10 +17,9 @@ header img {
 
 video, audio {
     display: block;
-    width: 30%;
+    width: 90%;
     margin:auto;
 }
-
 audio {
     width: 80%;
 }
@@ -159,6 +158,12 @@ img {
         white-space: nowrap;
     }
 
+    video, audio {
+        display: block;
+        width: 50%;
+        margin:auto;
+    }
+
     main{
         display: flex;
     }
@@ -191,6 +196,10 @@ img {
 
     #lower_area {
         display: flex;
+    }
+
+    video, audio {
+        width: 30%;
     }
 
     .col {
