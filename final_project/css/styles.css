@@ -31,33 +31,38 @@ audio {
 
 nav {
     background-color: #8C5535;
-    padding: 2px 0;
+    padding: 2px 2px;
     text-align: center;
-    height: 30px;
+    height: auto;
     width: 100%;
     flex: auto;
+    vertical-align: middle;
 }
 
 nav ul {
-    padding: 0%;
+    padding: 1%;
     list-style-type: none;
+    height: auto;
+    vertical-align: middle;
 }
 
 nav li {
     display: inline-block;
     align-items: center;
+    vertical-align: middle;
 }
 
 nav li a {
     display: block;
     background-color: #ECF235;
     border: solid #F2CC0C;
-    height: 20px;
+    height: 3%;
     line-height: 20px;
     font-size: 0.8em;
     text-decoration: none;
     border-radius: 10px;
     text-align: center;
+    vertical-align: middle;
 }
 
 main {
@@ -95,7 +100,7 @@ body {
 .column {
     width: 30%;
     float: left;
-    margin-right: 5%;
+    margin-right: 3%;
     padding: 10px;
     border: 1px solid #ddd;
     background-color: #ffffff;
@@ -184,7 +189,7 @@ img {
 }
 
 @media (min-width: 1024px) {
-    #container {
+    .container {
         width: 65%;
         margin: 20px auto;
         border: 3px #ccc;
@@ -192,10 +197,13 @@ img {
     video, audio {
         width: 90%;
     }
-    .col {
-        border: 2px;
+    .column {
+        width: 30%;
+        float: left;
+        margin-right: 3%;
         padding: 10px;
-        margin: 10px;
-        border-radius: 10px;
+        border: 1px solid #ddd;
+        background-color: #ffffff;
+        box-sizing: border-box;
     }
 }
