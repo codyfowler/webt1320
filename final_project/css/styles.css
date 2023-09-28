@@ -35,6 +35,7 @@ nav {
     text-align: center;
     height: 30px;
     width: 100%;
+    flex: auto;
 }
 
 nav ul {
