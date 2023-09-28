@@ -197,6 +197,7 @@ img {
     #container {
         width: 65%;
         margin: 20px auto;
+        border: #ccc;
     }
 
     video, audio {
