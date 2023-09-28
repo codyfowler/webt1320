@@ -20,6 +20,11 @@ video, audio {
     width: 30%;
     margin:auto;
 }
+
+video {
+    padding: 10px 0;
+}
+
 audio {
     width: 80%;
 }
@@ -84,26 +89,6 @@ body {
     padding: 20px;
     overflow: hidden;
     flex: auto;
-}
-
-.column {
-    width: 30%;
-    float: left;
-    margin-right: 5%;
-    padding: 10px;
-    border: 1px solid #ddd;
-    background-color: #ffffff;
-    box-sizing: border-box;
-}
-
-.column {
-    width: 30%;
-    float: left;
-    margin-right: 5%;
-    padding: 10px;
-    border: 1px solid #ddd;
-    background-color: #ffffff;
-    box-sizing: border-box;
 }
 
 .column {
@@ -212,10 +197,6 @@ img {
     #container {
         width: 65%;
         margin: 20px auto;
-    }
-
-    #lower_area {
-        display: flex;
     }
 
     video, audio {
